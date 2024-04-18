@@ -26,8 +26,13 @@ body {
 }
 
 h1 {
-    color: #d6d4d1;
-        font-size: 50px;
+    color: #ffffff;
+        font-size: 100px;
+}
+
+#bonbon{
+  padding-top: 120px;
+  padding-right: 60px;
 }
 
 .rww1 {
@@ -58,7 +63,7 @@ h1 {
   background: transparent;
   border: none;
   padding: 1em 1.5em;
-  color: #CA895F;
+  color: #ffffff;
   text-transform: uppercase;
   position: relative;
   transition: 0.5s ease;
@@ -73,13 +78,15 @@ h1 {
   bottom: 0;
   height: 2px;
   width: 0;
-  background-color: #E3D26F;
+  background-color: #fbbc30;
   transition: 0.5s ease;
 }
 
 .btn:hover {
-  color: #1e1e2b;
+  color: rgb(0, 0, 0);
   transition-delay: 0.5s;
+  box-shadow: 0 0 10px white;
+
 }
 
 .btn:hover::before {
@@ -93,7 +100,7 @@ h1 {
   bottom: 0;
   height: 0;
   width: 100%;
-  background-color: #E3D26F;
+  background-color: #fbbc30;
   transition: 0.4s ease;
   z-index: -1;
 }
