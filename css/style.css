@@ -11,6 +11,11 @@
 }
 
 */
+html{
+  scroll-behavior: smooth;
+
+}
+
 
 body {
     background-color: #141612;
@@ -177,7 +182,7 @@ h1 {
     padding-bottom: 30px;
   }
 
-  #about {
+  #About {
     text-decoration: underline #fbbc30;
     font-size: 70px;
     padding-bottom: 20px;
@@ -201,4 +206,12 @@ h1 {
   #bon {
     height: 600px;
     padding-bottom: 30px;
+  }
+
+  a {
+    padding: 5px;
+  }
+
+  #output {
+    padding-bottom: 25px;
   }

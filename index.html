@@ -22,9 +22,9 @@
             <nav class="navbar">
               <img id="logo" src="img/logo.png" alt="crown">
                 <ul>
-                    <li><button href="#" class="btn" id="but1">Home</button></li>
-                    <li><button href="#about" class="btn" id="but2">About</button></li>
-                    <li><button href="#history" class="btn" id="but3">History</button></li>
+                    <li><a href="#bonbon"><button class="btn" id="but1">Home</button></a></li>
+                    <li><a href="#About"><button class="btn" id="but2">About</button></a></li>
+                    <li><a href="#history"><button class="btn" id="but3">History</button></a></li>
 
                 </ul>
             </nav>
@@ -44,7 +44,7 @@
 
         <div class="row rww1">
           <div class="col">
-            <h1 id="about">About LeBron</h1>
+            <h1 id="About">About LeBron</h1>
           </div>
         </div>
 
@@ -83,7 +83,20 @@
 
         <div class="row">
           <div class="col">
-            <button onclick="updateOne()" class="btn" id="but1">BEES</button>
+            <nav>
+            <ul>
+            <li><button onclick="updateOne()" class="btn" id="but1">Fun Fact 1</button></li>
+            <li><button onclick="updateTwo()" class="btn" id="but2">Fun Fact 2</button></li>
+            <li><button onclick="updateThree()" class="btn" id="but3">Fun Fact 3</button></li>      
+          </ul>   
+        </nav>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p id="output">
+              Fun Facts!
+                          </p>
           </div>
         </div>
 
@@ -111,7 +124,7 @@
 
 
     </div>
-    <script src="js/java.js"></script>
+    <script src="js/script.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
